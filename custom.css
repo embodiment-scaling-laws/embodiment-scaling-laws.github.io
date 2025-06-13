@@ -6,6 +6,14 @@ body{
     background-color: white;
 }
 
+video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 p {
     margin: 0;
 }
@@ -15,7 +23,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 4em;
 }
 
 #paper-title {
@@ -23,17 +31,23 @@ p {
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 #authors{
-    margin-top: 1em;
+    margin-top: 2em;
+    margin-bottom: 0em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0.2em;
 }
 
 .author {
-    margin-right: 0.6em;
+    padding-right: 0.8vw;
+    padding-left: 0.8vw;
+    /*margin-right: 0.6em;*/
     font-weight: 600;
     color: #666;
     font-size: large;
@@ -60,9 +74,11 @@ p {
 
 #affiliations {
     margin-top: 1em;
+    bottom: 20em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0.2em;
 }
 
 .affiliation {
@@ -96,7 +112,7 @@ p {
 }
 
 #social-buttons {
-    margin-top: 2em;
+    margin-top: 3em;
     display: flex;
     justify-content: center;
 }
@@ -127,7 +143,7 @@ p {
 }
 
 #tldr-container {
-    margin-top: 2em;
+    margin-top: 4em;
     text-align: center;
     font-style: italic;
 }
@@ -144,8 +160,10 @@ p {
 }
 
 .section-header {
+    margin-top: 1em;
     font-size: x-large;
     font-weight: bold;
+    margin-bottom: 0.5em;
 }
 
 .section-sub-header {
@@ -157,6 +175,7 @@ p {
 
 .section-text {
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .section-text a {
