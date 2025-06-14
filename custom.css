@@ -74,7 +74,7 @@ p {
 
 #affiliations {
     margin-top: 1em;
-    bottom: 20em;
+    /*bottom: 10em;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,7 +112,7 @@ p {
 }
 
 #social-buttons {
-    margin-top: 3em;
+    margin-top: 2em;
     display: flex;
     justify-content: center;
 }
