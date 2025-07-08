@@ -47,7 +47,13 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.2em;
+    gap: 0.1em;
+}
+
+.author-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .author {
@@ -56,7 +62,7 @@ p {
     /*margin-right: 0.6em;*/
     font-weight: 600;
     color: #666;
-    /*font-size: 1.2rem;*/
+    /*font-size: 1.0rem;*/
     text-decoration: none;
 }
 
@@ -85,7 +91,16 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.2em;
+    gap: 0.1em;
+    font-size: 0.9rem;
+}
+
+.affiliation-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*margin-bottom: 0.1em;*/
+    /*gap: 0.3em;*/
 }
 
 .affiliation {
@@ -94,15 +109,15 @@ p {
     color: #333;
 }
 
-#affiliations .affiliation:last-child {
-    margin-right: 0;
-}
+/*#affiliations .affiliation:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
 
 
-#affiliations .affiliation:first-child {
-    flex: 1 100%;
-    text-align: center;
-}
+/*#affiliations .affiliation:first-child {*/
+/*    flex: 1 100%;*/
+/*    text-align: center;*/
+/*}*/
 
 .affiliation sup {
     /*font-size: medium;*/
@@ -324,7 +339,7 @@ p {
 }
 
 .citation-container {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     background-color: #f8f8f8;
     padding: 1em 1em 0.3em 1em;
     margin-top: 1em;
