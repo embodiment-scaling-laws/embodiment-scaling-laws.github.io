@@ -1,7 +1,11 @@
+html {
+    font-size: 20px;
+}
+
 body{
     /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', serif;
-    max-width: 60em;
+    max-width: 50rem;
     margin: 0 auto;
     color: #333;
     background-color: white;
@@ -29,11 +33,12 @@ p {
 
 #paper-title {
     /*font-family: 'Lato', sans-serif;*/
-    font-size: xx-large;
+    font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    color: #C69214; /* apply to headings */
 }
 
 #authors{
@@ -51,7 +56,7 @@ p {
     /*margin-right: 0.6em;*/
     font-weight: 600;
     color: #666;
-    font-size: large;
+    /*font-size: 1.2rem;*/
     text-decoration: none;
 }
 
@@ -68,7 +73,8 @@ p {
 }
 
 .author sup {
-    font-size: small;
+    /*font-size: small;*/
+    /*font-size: 62.5%;*/
     font-weight: normal;
     color: #999;
 }
@@ -84,7 +90,7 @@ p {
 
 .affiliation {
     margin-right: 0.6em;
-    font-size: medium;
+    /*font-size: 1.2rem;*/
     color: #333;
 }
 
@@ -99,7 +105,7 @@ p {
 }
 
 .affiliation sup {
-    font-size: small;
+    /*font-size: medium;*/
     font-weight: normal;
     color: #999;
 }
@@ -120,7 +126,7 @@ p {
 
 .social-button {
     margin-right: 1.6em;
-    font-size: medium;
+    /*font-size: 1rem;*/
     color: #333;
     display: flex;
     align-items: center;
@@ -153,10 +159,17 @@ p {
     font-weight: bold;
 }
 
+#tldr-text {
+    /*font-size: 1.2rem;*/
+    text-align: center;
+    font-style: italic;
+}
+
 #slogan-text {
-    font-size: 1.4rem;
+    font-size:1.4rem;
     font-weight: 600;
     margin-bottom: 0.6rem;
+    color: #C69214;
 }
 
 .section-container {
@@ -175,7 +188,7 @@ p {
 }
 
 .highlight-box {
-    background-color: #f9f9f9;
+    background-color: rgba(255, 205, 0, 0.5);  /* 30% opacity */
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 1.5em 2em;
@@ -186,19 +199,20 @@ p {
 
 .highlight-box-title {
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 0.8em;
 }
 
 .section-header {
     margin-top: 1em;
-    font-size: x-large;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 0.5em;
+    color: #C69214;
 }
 
 .section-sub-header {
-    font-size: larger;
+    font-size: 1.125rem;
     font-weight: bold;
     align-self: normal;
     margin-top: 2em;
@@ -214,7 +228,7 @@ p {
 }
 
 .highlighted-text {
-    color: #c49329;
+    color: #C69214;
     font-weight: bold;
 }
 
@@ -230,6 +244,9 @@ p {
 
 .section-gif-container {
     display: flex;
+        gap: 40px; /* Try 40px, adjust as needed */
+    justify-content: start;
+    margin-bottom: 8px; /* optional: space below header row */
 }
 
 .section-gif {
@@ -238,7 +255,7 @@ p {
 }
 
 .gif-text-morphology-class{
-    font-size: large;
+    /*font-size: 1.125rem;*/
     font-weight: bold;
     align-content: center;
     width: 9vw;
@@ -247,10 +264,13 @@ p {
 
 .section-gif-header-container {
     display: flex;
+    gap: 40px; /* Try 40px, adjust as needed */
+    justify-content: start;
+    margin-bottom: 8px; /* optional: space below header row */
 }
 
 .section-gif-header {
-    font-size: large;
+    /*font-size: 1.125rem;*/
     font-weight: bold;
     width: 9vw;
     text-align: center;
@@ -267,7 +287,7 @@ p {
 }
 
 .section-deployment-video-container-header {
-    font-size: larger;
+    font-size: 1.125rem;
     font-weight: bold;
     text-align: center;
 }
@@ -284,7 +304,7 @@ p {
 }
 
 .deployment-video-header {
-    font-size: large;
+    /*font-size: 1.125rem;*/
     font-weight: bold;
     text-align: center;
     margin-top: 0.5em;
@@ -304,6 +324,7 @@ p {
 }
 
 .citation-container {
+    font-size: 0.8rem;
     background-color: #f8f8f8;
     padding: 1em 1em 0.3em 1em;
     margin-top: 1em;
@@ -324,7 +345,7 @@ p {
     margin-top: 3em;
     text-align: center;
     margin-bottom: 3em;
-    font-size: small;
+    font-size: 0.8125rem;
 }
 
 #website-inspiration a {
