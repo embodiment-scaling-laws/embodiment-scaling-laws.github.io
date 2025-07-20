@@ -31,9 +31,18 @@ p {
     margin-top: 2em;
 }
 
+/*#paper-title {*/
+/*    !*font-family: 'Lato', sans-serif;*!*/
+/*    font-size: 1.8rem;*/
+/*    font-weight: bold;*/
+/*    text-align: center;*/
+/*    margin-top: 1em;*/
+/*    margin-bottom: 0.5em;*/
+/*    color: #C69214; !* apply to headings *!*/
+/*}*/
+
 #paper-title {
-    /*font-family: 'Lato', sans-serif;*/
-    font-size: 1.8rem;
+    font-size: 2.6rem;
     font-weight: bold;
     text-align: center;
     margin-top: 1em;
@@ -41,8 +50,14 @@ p {
     color: #C69214; /* apply to headings */
 }
 
+.emphasis {
+    /*font-family: 'Merriweather', serif;*/
+    /*font-style: italic;*/
+    /*font-weight: 700;*/
+}
+
 #authors{
-    margin-top: 2em;
+    /*margin-top: 1.5em;*/
     margin-bottom: 0em;
     display: flex;
     flex-wrap: wrap;
