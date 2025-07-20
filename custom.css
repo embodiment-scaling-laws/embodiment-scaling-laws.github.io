@@ -353,14 +353,28 @@ p {
     border-radius: 0.6em;
 }
 
+/*.citation-container {*/
+/*    font-size: 0.7rem;*/
+/*    background-color: #f8f8f8;*/
+/*    padding: 1em 1em 0.3em 1em;*/
+/*    margin-top: 1em;*/
+/*    max-height: 200px;*/
+/*    max-width: fit-content;*/
+
+/*    !*max-width: -webkit-fill-available;*!*/
+/*    overflow: auto;*/
+/*}*/
+
 .citation-container {
     font-size: 0.7rem;
     background-color: #f8f8f8;
     padding: 1em 1em 0.3em 1em;
     margin-top: 1em;
-    max-height: 200px;
-    max-width: -webkit-fill-available;
-    overflow: auto;
+    max-width: 50rem;       /* Responsive max-width */
+    width: 100%;           /* Use full available space */
+    overflow-x: auto;      /* Enable horizontal scroll if needed */
+    border-radius: 8px;    /* Optional: make it polished */
+    box-sizing: border-box;
 }
 
 .citation-container pre,
