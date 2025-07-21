@@ -190,13 +190,13 @@ p {
 }
 
 #tldr-text {
-    /*font-size: 1.2rem;*/
+    font-size: 1.0rem;
     text-align: center;
     font-style: italic;
 }
 
 #slogan-text {
-    font-size:1.4rem;
+    font-size:1.7rem;
     font-weight: 600;
     margin-bottom: 0.6rem;
     color: #C69214;
