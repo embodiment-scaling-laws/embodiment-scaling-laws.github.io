@@ -58,7 +58,7 @@ p {
 
 #authors{
     /*margin-top: 1.5em;*/
-    margin-bottom: 0em;
+    /*margin-bottom: 0em;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -100,15 +100,15 @@ p {
     color: #999;
 }
 
-#affiliations {
-    margin-top: 1em;
-    /*bottom: 10em;*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.1em;
-    font-size: 0.9rem;
-}
+/*#affiliations {*/
+/*    margin-top: 1em;*/
+/*    !*bottom: 10em;*!*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    gap: 0.1em;*/
+/*    font-size: 0.9rem;*/
+/*}*/
 
 .affiliation-row {
     display: flex;
@@ -141,15 +141,18 @@ p {
 }
 
 #conference-name {
-    margin-top: 1em;
-    font-size: medium;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.4rem;
+    /*font-size: medium;*/
     font-weight: bold;
     color: #333;
+    /*color: #C69214;*/
     text-align: center;
 }
 
 #social-buttons {
-    margin-top: 2em;
+    margin-top: 1em;
     display: flex;
     justify-content: center;
 }
