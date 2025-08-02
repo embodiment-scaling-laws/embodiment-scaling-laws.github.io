@@ -78,7 +78,7 @@
 <!--            </div>-->
 <!--        </div>-->
 
-        <img src="images/logos-website.jpeg" alt="Affiliations" style="width: 85%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
+        <img src="images/logos-website.jpeg" alt="Affiliations" style="width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
         <p id="conference-name">CoRL 2025</p>
         <div id="social-buttons">
             <a href="https://arxiv.org/pdf/2505.05753.pdf" target="_blank" class="social-button">
@@ -239,98 +239,19 @@
             </video>
 
         <div class="section-container">
-            <p class="section-header">Real-world Deployment</p>
+            <p class="section-header">Sim-to-Real and Cross-Embodiment Transfer</p>
             <p class="section-text">
-                We confirm our results, by zero-shot transferring the learned unified policy to the
-                <span class="highlighted-text">Unitree Go2 quadruped</span> and the
-                <span class="highlighted-text">Unitree H1 humanoid</span> robots in the real world.
-                <strong>All results shown are using one single policy.</strong>
+                Our best learned policy demonstrates both <span class="highlighted-text">sim-to-real</span> and
+                <span class="highlighted-text">cross-embodiment</span> transferability.
+<!--                in <span class="highlighted-text">simulation</span> can directly transfer to-->
+<!--                We confirm our results, by zero-shot transferring the learned unified policy to the-->
+<!--                <span class="highlighted-text">novel embodiments</span>, including Unitree Go2 quadruped and-->
+<!--                Unitree H1 humanoid, in the <span class="highlighted-text">real world</span>.-->
+                <strong>All results shown below are using one single policy trained in simulation.</strong>
             </p>
+
             <div class="section-deployment-video-container">
-                <p class="section-deployment-video-container-header">Unitree H1</p>
-                <div class="section-deployment-video-row">
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Forward</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_1_1.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Forward</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_1_3.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Forward</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_1_2.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <div class="section-deployment-video-row">
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Backward</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_2_1.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Backward</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_2_3.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Backward</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_2_2.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <div class="section-deployment-video-row">
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Sideward</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_3_1.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Sideward</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_3_3.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Sideward</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_3_2.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <div class="section-deployment-video-row">
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Pushes</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_4_1.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Pushes</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_4_3.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="deployment-video-block">
-                        <p class="deployment-video-header">Pushes</p>
-                        <video muted autoplay loop class="deployment-video">
-                            <source src="videos/h1_4_2.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-            <div class="section-deployment-video-container">
-                <p class="section-deployment-video-container-header">Unitree Go2</p>
+                <p class="section-deployment-video-container-header">Unitree Go2 with Varying Joint Constraints</p>
                 <div class="section-deployment-video-row">
                     <div class="deployment-video-block">
                         <p class="deployment-video-header">100% joint limits on every knee</p>
@@ -371,6 +292,10 @@
                         </video>
                     </div>
                 </div>
+            </div>
+
+            <div class="section-deployment-video-container">
+                    <p class="section-deployment-video-container-header">Unitree Go2 in Varying Environments</p>
                 <div class="section-deployment-video-row">
                     <div class="deployment-video-block">
                         <p class="deployment-video-header">Gravel</p>
@@ -412,7 +337,94 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="section-deployment-video-container">
+                <p class="section-deployment-video-container-header">Unitree H1 in Varying Directions</p>
+                <div class="section-deployment-video-row">
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">&nbsp;</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_1_1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">Forward</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_1_3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">&nbsp;</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_1_2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="section-deployment-video-row">
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">&nbsp;</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_2_1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">Backward</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_2_3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">&nbsp;</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_2_2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="section-deployment-video-row">
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">&nbsp;</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_3_1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">Sideward</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_3_3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">&nbsp;</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_3_2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-deployment-video-container">
+                <p class="section-deployment-video-container-header">Unitree H1 under External Perturbations</p>
+                <div class="section-deployment-video-row">
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">&nbsp;</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_4_1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">Pushes</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_4_3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="deployment-video-block">
+                        <p class="deployment-video-header">&nbsp;</p>
+                        <video muted autoplay loop class="deployment-video">
+                            <source src="videos/h1_4_2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
 
 <!--        <div class="section-container">-->
 <!--            <p class="section-header">Acknowledgments</p>-->
