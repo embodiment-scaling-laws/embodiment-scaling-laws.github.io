@@ -5,7 +5,7 @@ html {
 body{
     /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', serif;
-    max-width: 50rem;
+    max-width: 45rem;
     margin: 0 auto;
     color: #333;
     background-color: white;
@@ -194,13 +194,13 @@ p {
 }
 
 #tldr-text {
-    font-size: 1.15rem;
+    font-size: 1rem;
     text-align: center;
     font-style: italic;
 }
 
 #slogan-text {
-    font-size:1.5rem;
+    font-size:1.4rem;
     font-weight: 600;
     margin-bottom: 0.6rem;
     color: #C69214;
@@ -241,7 +241,7 @@ p {
     margin-top: 1em;
     font-size: 1.4rem;
     font-weight: bold;
-    margin-bottom: 0.5em;
+    /*margin-bottom: 0.2em;*/
     color: #C69214;
 }
 
@@ -253,7 +253,7 @@ p {
 }
 
 .section-text {
-    margin-top: 1em;
+    margin-top: 0.5em;
     margin-bottom: 1em;
 }
 
@@ -323,7 +323,7 @@ p {
 }
 
 .section-deployment-video-container-header {
-    font-size: 1.125rem;
+    font-size: 1.115rem;
     font-weight: bold;
     text-align: center;
 }
