@@ -1,5 +1,5 @@
 :root {
-    --main-content-max-width: 45rem;
+    --main-content-max-width: 43rem;
     --main-content-padding: 1rem;
     --deployment-video-max-width: 320px; /* fallback if needed elsewhere */
     --deployment-video-gap: 1rem;
@@ -161,6 +161,7 @@ p {
 }
 
 #social-buttons {
+    font-size: 0.8rem;
     margin-top: 1em;
     display: flex;
     justify-content: center;
@@ -429,7 +430,7 @@ p {
     margin-top: 3em;
     text-align: center;
     margin-bottom: 3em;
-    font-size: 0.8125rem;
+    font-size: 0.7rem;
 }
 
 #website-inspiration a {
