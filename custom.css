@@ -76,8 +76,9 @@ p {
     padding-right: 0.8vw;
     padding-left: 0.8vw;
     /* margin-right: 0.6em; */
-    font-weight: 600;
-    color: #666;
+    font-weight: bold;
+    /* color: #666; */
+    color: #333;
     /*font-size: 1.0rem;*/
     text-decoration: none;
 }
@@ -144,7 +145,7 @@ p {
 #conference-name {
     margin-top: 0.7em;
     margin-bottom: 1.5em;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #C69214;
     text-align: center;
@@ -205,7 +206,7 @@ p {
 
 #slogan-text {
     font-size:1.4rem;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 0.6rem;
     color: #C69214;
 }
