@@ -21,7 +21,7 @@
         <div id="title-container">
 <!--            <p id="paper-title">Towards Embodiment Scaling Laws in Robot Locomotion</p>-->
             <p id="paper-title">
-              Towards <span class="emphasis">Embodiment Scaling Laws</span> <br> in Robot Locomotion
+              Towards <span class="emphasis">Embodiment Scaling Laws</span> in Robot Locomotion
             </br>
 
 <!--            <div id="authors">-->
@@ -60,7 +60,9 @@
                 <a class="author" href="https://www.ias.informatik.tu-darmstadt.de/Team/JanPeters" target="_blank">Jan Peters<sup>3,4</sup></a>
                 <a class="author" href="https://cseweb.ucsd.edu/~haosu/" target="_blank">Hao Su<sup>1</sup></a>
               </div>
+              <p class="section-text">
                 (* equal contribution, &#8224; corresponding author)
+            </p>
             </div>
 
 <!--            <div id="affiliations">-->
@@ -104,6 +106,13 @@
         </div>
 
         <div class="section-container">
+            <p class="section-header">Abstract</p>
+            <p class="section-text">
+                Cross-embodiment generalization underpins the vision of building generalist embodied agents for <em>any</em> robot, yet its enabling factors remain poorly understood. We investigate <em>embodiment scaling laws</em>, the hypothesis that increasing the number of training embodiments improves generalization to unseen ones, using robot locomotion as a test bed. We procedurally generate &sim;1,000 embodiments with topological, geometric, and joint-level kinematic variations, and train policies on random subsets. We observe positive scaling trends supporting the hypothesis, and find that embodiment scaling enables substantially broader generalization than data scaling on fixed embodiments. Our best policy, trained on the full dataset, transfers zero-shot to novel embodiments in simulation and the real world, including the Unitree Go2 and H1. These results represent a step toward general embodied intelligence, with relevance to adaptive control for configurable robots, morphology co-design, and beyond.
+            </p>
+        </div>
+
+        <!-- <div class="section-container">
             <p class="section-header">Overview</p>
             <p class="section-text">
                 This work investigates <span class="highlighted-text">embodiment scaling laws</span> in robotics,
@@ -111,7 +120,7 @@
                 improves its ability to generalize to unseen ones.
             </p>
             <iframe class="youtube-iframe" src="https://www.youtube.com/embed/62OBDgrQYw4?si=MzmJyBurg8L5SZwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        </div> -->
 
         <div class="section-container">
             <p class="section-header">Generating ~1000 Robots</p>
@@ -234,11 +243,11 @@
 
         <div class="section-container">
             <p class="section-header">Qualitative Results in Sim</p>
-        </div>
             A single policy controls diverse morphologies in simulation, both seen and novel.
              <video loop autoplay muted playsinline preload="metadata">
                 <source src="videos/qualitative-sim-long.mp4" type="video/mp4">
             </video>
+        </div>
 
         <div class="section-container">
             <p class="section-header">Sim-to-Real and Cross-Embodiment Transfer</p>
@@ -427,7 +436,6 @@
                     </div>
                 </div>
             </div>
-        </div>
 
 <!--        <div class="section-container">-->
 <!--            <p class="section-header">Acknowledgments</p>-->
@@ -450,7 +458,7 @@
 <!--        </div>-->
 
         <div class="section-container">
-            <p class="section-header">Citation</p>
+            <p class="section-header">BibTeX</p>
             <div class="citation-container">
                 <pre><code>@article{ai2025towards,
   title={Towards Embodiment Scaling Laws in Robot Locomotion},

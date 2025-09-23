@@ -1,22 +1,26 @@
 :root {
-    --main-content-max-width: 43rem;
-    --main-content-padding: 1rem;
+    --main-content-max-width: 50rem;
+    --main-content-padding: 2rem;
     --deployment-video-max-width: 320px; /* fallback if needed elsewhere */
     --deployment-video-gap: 1rem;
     --narrow-content-max-width: calc(var(--main-content-max-width) - 2rem);
 }
 
 html {
-    font-size: 23px;
+    font-size: 18px;
 }
 
 body{
-    /*font-family: 'Open Sans', sans-serif;*/
-    font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', serif;
+    /* font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; */
     /* max-width: 45rem; */
-    margin: 0 auto;
+    /* font-family: "Source Serif 4", serif; */
+    font-family: 'Google Sans', sans-serif;
+    /* margin: 0 auto; */
     color: #333;
     background-color: white;
+    text-align: justify;  
+    /* text-justify: inter-word; */
+    /* hyphens: auto;
 }
 
 video {
@@ -155,7 +159,7 @@ p {
     font-size: 1.4rem;
     /*font-size: medium;*/
     font-weight: bold;
-    color: #333;
+    color: #C69214;
     /*color: #C69214;*/
     text-align: center;
 }
@@ -174,14 +178,17 @@ p {
     display: flex;
     align-items: center;
     text-decoration: none;
-    border: 1px solid #333;
+    border: 1px solid #53565A;
     padding: 0.3em 1.8em;
     border-radius: 0.6em;
     cursor: pointer;
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #f2f2f2;
 }
 
 .social-button:hover {
-    box-shadow: 0 0 0 0.1em #333;
+    background-color: #f2f2f2;
+    filter: brightness(97%);
 }
 
 .social-button:last-child {
@@ -195,7 +202,7 @@ p {
 #tldr-container {
     margin-top: 4em;
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 #tldr-first {
@@ -204,8 +211,13 @@ p {
 
 #tldr-text {
     font-size: 1rem;
-    text-align: center;
-    font-style: italic;
+    /* text-align: justify;
+    text-justify: inter-word; */
+    /* hyphens: auto; */
+    /* line-height: 1.6; */
+    /* max-width: 45rem; */
+    /* margin: 0 auto; */
+    /* font-style: italic; */
 }
 
 #slogan-text {
@@ -219,7 +231,7 @@ p {
     margin-top: 3em;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .section-container-left {
@@ -250,7 +262,7 @@ p {
     margin-top: 1em;
     font-size: 1.4rem;
     font-weight: bold;
-    /*margin-bottom: 0.2em;*/
+    margin-bottom: 0.2em;
     color: #C69214;
 }
 
@@ -263,7 +275,11 @@ p {
 
 .section-text {
     margin-top: 0.5em;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
+    /* text-align: justify;
+    text-justify: inter-word; */
+    hyphens: auto;
+    line-height: 1.6;
 }
 
 .section-text a {
@@ -289,12 +305,12 @@ p {
     display: flex;
         gap: 40px; /* Try 40px, adjust as needed */
     justify-content: start;
-    margin-bottom: 8px; /* optional: space below header row */
+    /* margin-bottom: 8px; optional: space below header row */
 }
 
 .section-gif {
     width: 9vw;
-    margin-bottom: -1em;
+    /* margin-bottom: -1em; */
 }
 
 .gif-text-morphology-class{
@@ -327,14 +343,13 @@ p {
 
 .section-deployment-video-container {
     width: 100%;
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 
 .section-deployment-video-container-header {
     font-size: 1.115rem;
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
+    margin-bottom: 0.0rem
 }
 
 .section-deployment-video-row {
@@ -358,18 +373,20 @@ p {
 }
 
 .deployment-video-header {
-    /*font-size: 1.125rem;*/
+    font-size: 1.125rem;
     font-weight: bold;
     text-align: center;
-    margin-top: 0.5em;
+    margin-top: 0.25rem;
+    margin-bottom: 0.1rem;
 }
 
 .deployment-video {
-    margin-top: 0.5em;
+    /* margin-top: 0.5em; */
     width: 100%;
     height: auto;
-    border-radius: 0.6em;
+    /* border-radius: 0.6em; */
     display: block;
+    margin: 0rem; 
 }
 
 @media (max-width: 900px) {
