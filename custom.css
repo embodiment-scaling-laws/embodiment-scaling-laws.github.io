@@ -40,37 +40,24 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 3em;
 }
-
-/*#paper-title {*/
-/*    !*font-family: 'Lato', sans-serif;*!*/
-/*    font-size: 1.8rem;*/
-/*    font-weight: bold;*/
-/*    text-align: center;*/
-/*    margin-top: 1em;*/
-/*    margin-bottom: 0.5em;*/
-/*    color: #C69214; !* apply to headings *!*/
-/*}*/
 
 #paper-title {
     font-size: 2.3rem;
     font-weight: bold;
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
     color: #C69214; /* apply to headings */
 }
 
 .emphasis {
-    /*font-family: 'Merriweather', serif;*/
     /*font-style: italic;*/
     /*font-weight: 700;*/
 }
 
 #authors{
-    margin-top: 0.7em;
-    margin-bottom: 0.7em;
+    margin-top: 1.7em;
+    margin-bottom: 1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -87,7 +74,7 @@ p {
 .author {
     padding-right: 0.8vw;
     padding-left: 0.8vw;
-    /*margin-right: 0.6em;*/
+    /* margin-right: 0.6em; */
     font-weight: 600;
     color: #666;
     /*font-size: 1.0rem;*/
@@ -106,12 +93,13 @@ p {
     margin-right: 0;
 }
 
+/* 
 .author sup {
-    /*font-size: small;*/
-    /*font-size: 62.5%;*/
+    font-size: small;
+    font-size: 62.5%;
     font-weight: normal;
     color: #999;
-}
+} */
 
 /*#affiliations {*/
 /*    margin-top: 1em;*/
@@ -148,32 +136,27 @@ p {
 /*}*/
 
 .affiliation sup {
-    /*font-size: medium;*/
     font-weight: normal;
     color: #999;
 }
 
 #conference-name {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0.7em;
+    margin-bottom: 1.5em;
     font-size: 1.4rem;
-    /*font-size: medium;*/
     font-weight: bold;
     color: #C69214;
-    /*color: #C69214;*/
     text-align: center;
 }
 
 #social-buttons {
     font-size: 0.8rem;
-    margin-top: 1em;
     display: flex;
     justify-content: center;
 }
 
 .social-button {
     margin-right: 1.6em;
-    /*font-size: 1rem;*/
     color: #333;
     display: flex;
     align-items: center;
@@ -182,7 +165,6 @@ p {
     padding: 0.3em 1.8em;
     border-radius: 0.6em;
     cursor: pointer;
-    font-family: "Source Sans 3", sans-serif;
     background-color: #f2f2f2;
 }
 
@@ -200,7 +182,7 @@ p {
 }
 
 #tldr-container {
-    margin-top: 4em;
+    margin-top: 3em;
     text-align: center;
     /* font-style: italic; */
 }
@@ -239,16 +221,16 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* width: 100%; */
 }
 
 .highlight-box {
     background-color: rgba(255, 205, 0, 0.5);  /* 30% opacity */
     border: 1px solid #ddd;
     border-radius: 12px;
-    padding: 1.5em 1em; /* reduced horizontal padding */
-    margin-top: 1em;
-    /* width: 100%; */
+    padding-top: 1.2em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     box-shadow: 0 0 6px rgba(0,0,0,0.05);
 }
 
@@ -278,13 +260,13 @@ p {
     /* margin-bottom: 1em; */
     /* text-align: justify;
     text-justify: inter-word; */
-    hyphens: auto;
-    line-height: 1.6;
+    /* hyphens: auto; */
+    /* line-height: 1.6; */
 }
 
-.section-text a {
+/* .section-text a {
     color: #333;
-}
+} */
 
 .highlighted-text {
     color: #C69214;
@@ -305,7 +287,6 @@ p {
     display: flex;
         gap: 40px; /* Try 40px, adjust as needed */
     justify-content: start;
-    /* margin-bottom: 8px; optional: space below header row */
 }
 
 .section-gif {
@@ -323,13 +304,12 @@ p {
 
 .section-gif-header-container {
     display: flex;
-    gap: 40px; /* Try 40px, adjust as needed */
+    gap: 40px;  /* Try 40px, adjust as needed */
     justify-content: start;
-    margin-bottom: 8px; /* optional: space below header row */
+    margin-top: 1em;
 }
 
 .section-gif-header {
-    /*font-size: 1.125rem;*/
     font-weight: bold;
     width: 9vw;
     text-align: center;
@@ -346,10 +326,10 @@ p {
 }
 
 .section-deployment-video-container-header {
-    font-size: 1.115rem;
     font-weight: bold;
     /* text-align: center; */
-    margin-bottom: 0.0rem
+    margin-bottom: 0.0rem;
+    margin-top: 1em;
 }
 
 .section-deployment-video-row {
@@ -373,7 +353,7 @@ p {
 }
 
 .deployment-video-header {
-    font-size: 1.125rem;
+    font-size: 0.9rem;
     font-weight: bold;
     text-align: center;
     margin-top: 0.25rem;
@@ -381,7 +361,6 @@ p {
 }
 
 .deployment-video {
-    /* margin-top: 0.5em; */
     width: 100%;
     height: auto;
     /* border-radius: 0.6em; */
