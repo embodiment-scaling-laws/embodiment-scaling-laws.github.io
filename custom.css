@@ -14,7 +14,8 @@ body{
     /* font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; */
     /* max-width: 45rem; */
     /* font-family: "Source Serif 4", serif; */
-    font-family: 'Google Sans', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    /* font-family: 'Google Sans', sans-serif; */
     /* margin: 0 auto; */
     color: #333;
     background-color: white;
@@ -210,7 +211,7 @@ p {
 }
 
 .section-container {
-    margin-top: 3em;
+    margin-top: 1.5em;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -230,7 +231,8 @@ p {
     padding-top: 1.2em;
     padding-bottom: 0.5em;
     padding-left: 1em;
-    padding-right: 1em;
+    /* padding-right: calc(4em - var(--main-content-padding)); */
+    width: 100%;
     box-shadow: 0 0 6px rgba(0,0,0,0.05);
 }
 
